@@ -68,7 +68,7 @@ const CardMentoria = ({ date, hour, materia, salon,
 
     return (
         <div className="card-class">
-            <img src="" alt={ `${materia}`} />
+            <img src="" alt={ `${materia}`} className='img'/>
             <div className="info">
                 <div className="info-name">
                     <p>Encargad@</p>
